@@ -1,0 +1,33 @@
+export const mockdata =[
+    {
+        name:"siri",
+        age:25,
+        location:"austin",
+        city:"texas"
+    },
+    {
+        name:"sharanya",
+        age:26,
+        location:"chicago",
+        city:"illinos"
+    },
+    {
+        name:"sharmila",
+        age:27,
+        location:"denton",
+        city:"dallas"
+    },
+    {
+        name:"akshitha",
+        age:28,
+        location:"lbnagar",
+        city:"hyderabad"
+    },
+    {
+        name:"ravali",
+        age:29,
+        location:"malakpet",
+        city:"rangareddy"
+    },
+    
+]

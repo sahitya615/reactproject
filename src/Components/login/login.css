@@ -1,0 +1,41 @@
+.Login-container {
+    width: 387px;
+    margin: 168px auto;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #888;
+}
+
+.Login-container h1 {
+   text-align: center;
+}
+
+.Login-form {
+    padding: 25px 84px 25px 70px;
+    /* margin: 45px; */
+}
+
+input.inputWrapper {
+        text-align: center;
+        background-color: moccasin
+    }
+
+    .Wrapper {
+        /* margin: 25px; */
+        padding: 25px;
+        width: 150px;
+        height: 19px;
+        /* text-align: center; */
+        width: 100%;
+    }
+    .submit {
+        margin: 60px 0px 0px 40px;
+        padding: 20px x 20;
+        padding: 10px 40px;
+        color: white;
+        text-align: center;
+        background-color: blue;
+    }
+.error{
+    color: red;
+}

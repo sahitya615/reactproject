@@ -1,0 +1,9 @@
+.dropdown-container {
+    margin: center;
+    text-align: center;
+    margin-top: 30px;
+}
+select.select-item {
+    width: 160px;
+    background: lightgreen;
+}

@@ -1,0 +1,22 @@
+.addtocart-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.list-items {
+    list-style-type: none;
+    margin-top: 20px;
+}
+.item {
+    margin: 10px;
+    padding: -5px;
+}
+.spaner {
+    margin-left: 10px;
+}
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 3px;
+    border-radius: 20px;
+}
