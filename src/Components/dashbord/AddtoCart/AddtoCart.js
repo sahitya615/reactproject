@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 import './AddtoCart.css'
+
 
 class addtocart extends Component {
     constructor() {
@@ -32,6 +34,7 @@ class addtocart extends Component {
         console.log("names", this.state.names)
         return (
             <div className="addtocart-container">
+               <div><Link to ="/dashboard"> <button className="back-btn">back</button></Link></div>
                 <input className="added-name" name="name" value={this.state.name} type="text" onChange={this.changeHandler} />
                 <button className="add-btn" onClick={this.submitHandler}>add</button>
                 <ul className="list-items">

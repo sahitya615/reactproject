@@ -7,3 +7,11 @@ select.select-item {
     width: 160px;
     background: lightgreen;
 }
+button.back-btn {
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background: green;
+    color: white;
+}

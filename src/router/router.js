@@ -1,16 +1,19 @@
-import React, {Component} from 'react';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from '../Components/login/login';
 import Dashboard from '../Components/dashbord/dashboard';
 import Addtocart from '../Components/dashbord/AddtoCart/AddtoCart'
 import Incanddec from '../Components/dashbord/incanddec/incanddec'
 import Tableexe from '../Components/dashbord/tableexe/tableexe'
 import Countryfilter from '../Components/dashbord/countryfilter/countryfilter'
+import Dropdownfilter from '../Components/dashbord/dropdownfilter/dropdownfilter'
+import Promises from '../Components/dashbord/promises/promises'
+import Popup from '../Components/dashbord/popup/popup'
 
 
-class router extends Component{
-    render(){
-        return(
+class router extends Component {
+    render() {
+        return (
             <div>
                 <Router>
                     <Switch>
@@ -20,9 +23,9 @@ class router extends Component{
                         <Route exact path='/incanddec' component={Incanddec} />
                         <Route exact path='/Tableexe' component={Tableexe} />
                         <Route exact path='/countryfilter' component={Countryfilter} />
-
-
-
+                        <Route exact path='/dropdownfilter' component={Dropdownfilter} />
+                        <Route exact path='/promises' component={Promises} />
+                        <Route exact path='/popup' component={Popup} />
                     </Switch>
                 </Router>
             </div>
@@ -30,6 +33,6 @@ class router extends Component{
         );
     }
 
-    
+
 }
 export default router;

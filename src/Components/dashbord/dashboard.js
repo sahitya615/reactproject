@@ -15,18 +15,30 @@ class dashboard extends Component {
                         <Link to='/countryfilter'>
                             <li>countryfilter</li>
                         </Link>
+                        <Link to='/popup'>
+                            <li>popup</li>
+                        </Link>
+
 
                     </div>
                     <div className="col-4">
                         <Link to='/incanddec'>
                             <li>incanddec</li>
                         </Link>
+                        <Link to='/dropdownfilter'>
+                            <li>dropdownfilter</li>
+                        </Link>
+
 
                     </div>
                     <div className="col-4">
                         <Link to='/tableexe'>
                             <li>tableexe</li>
                         </Link>
+                        <Link to='/promises'>
+                            <li>promises</li>
+                        </Link>
+
 
 
                     </div>

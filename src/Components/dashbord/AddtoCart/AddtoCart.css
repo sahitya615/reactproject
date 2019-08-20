@@ -20,3 +20,11 @@
     padding: 3px;
     border-radius: 20px;
 }
+button.back-btn {
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background: green;
+    color: white;
+}
