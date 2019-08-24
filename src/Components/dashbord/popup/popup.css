@@ -66,3 +66,13 @@ button.submit-btn {
     color: white;
 
 }
+.popup-open{
+    position: relative;
+}
+.hide{
+    display: none;
+}
+
+.show{
+display: inline-flex;
+}

@@ -8,6 +8,7 @@ class tableexe extends Component {
             newmockdata: mockdata,
         }
     }
+
     render() {
         console.log(mockdata)
         return (

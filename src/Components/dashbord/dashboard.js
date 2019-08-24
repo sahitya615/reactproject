@@ -18,6 +18,10 @@ class dashboard extends Component {
                         <Link to='/popup'>
                             <li>popup</li>
                         </Link>
+                        <Link to='/examplemock'>
+                            <li>examplemock</li>
+                        </Link>
+
 
 
                     </div>
@@ -27,6 +31,9 @@ class dashboard extends Component {
                         </Link>
                         <Link to='/dropdownfilter'>
                             <li>dropdownfilter</li>
+                        </Link>
+                        <Link to='/counterredux'>
+                            <li>counterredux</li>
                         </Link>
 
 
@@ -38,6 +45,10 @@ class dashboard extends Component {
                         <Link to='/promises'>
                             <li>promises</li>
                         </Link>
+                        <Link to='/funcomponent'>
+                            <li>funcomponent</li>
+                        </Link>
+
 
 
 
