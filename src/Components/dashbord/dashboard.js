@@ -35,6 +35,10 @@ class dashboard extends Component {
                         <Link to='/counterredux'>
                             <li>counterredux</li>
                         </Link>
+                        <Link to='/lazyloading'>
+                            <li>lazyloading</li>
+                        </Link>
+
 
 
                     </div>

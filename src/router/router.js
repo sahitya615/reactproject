@@ -12,6 +12,7 @@ import Popup from '../Components/dashbord/popup/popup'
 import Counterredux from '../Components/dashbord/counterredux/counterredux'
 import Examplemock from '../Components/dashbord/examplemock/examplemock'
 import Funcomponent from '../Components/dashbord/functionalcomponent/funcomponent'
+import Lazyloading from '../Components/dashbord/lazyloading/lazyloading'
 
 
 class router extends Component {
@@ -32,6 +33,9 @@ class router extends Component {
                         <Route exact path='/counterredux' component={Counterredux} />
                         <Route exact path='/examplemock' component={Examplemock} />
                         <Route exact path='/funcomponent' component={Funcomponent} />
+                        <Route exact path='/lazyloading' component={Lazyloading} />
+
+                        
 
 
 
